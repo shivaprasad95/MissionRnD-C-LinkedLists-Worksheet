@@ -21,6 +21,8 @@ struct node {
 	struct node *next;
 };
 
-void sll_012_sort(struct node *head){
+void sll_012_sort(struct node *start){
+
 	
+
 }
