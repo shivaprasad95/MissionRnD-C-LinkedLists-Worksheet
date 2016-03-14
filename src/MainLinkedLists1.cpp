@@ -27,11 +27,11 @@ Objectives of C-LinkedLists-1 Lesson:
 #include "FunctionHeadersLinkedLists1.h"
 
 int main(){
-	
+
 	//Test 012SortSll
 
 	//Test numberToLinkedList
-	numberToLinkedList(4569);
+	
 	//Test removeEveryKthNode
 
 	//Test sortLinkedList
