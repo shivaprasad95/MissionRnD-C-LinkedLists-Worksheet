@@ -22,5 +22,20 @@ struct node {
 };
 
 int convert_sll_2digit_to_int(struct node *head){
-	return 0;
+
+	int num, temp1, temp2;
+	int temp = 100, N = 0;
+	int i = 0,count = 0;
+
+	while (head)
+	{
+		temp1 = head->digit1;    //storing first digit
+		temp2 = head->digit2;	 //storing second digit
+		num = temp1 * 10 + temp2;//finding a number from 2-digits
+		N = N * temp + num;     //finding complete number(till current node)
+		head = head->next;
+		count++;
+	}
+	
+	return N;
 }
